@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Keep Fusion benchmark fallback active when a cheap repair exhausts its allowance without submitting, even if its partial patch passes the supplied check.
+
 - Recover once from a truncated Fusion benchmark action within the existing call, time and spending limits, without applying partial output.
 
 - Include declared product summaries in provider package indexes, sharing metadata types with the plugin contract while keeping execution and auth configuration private.
