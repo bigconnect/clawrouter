@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Recover once from a truncated Fusion benchmark action within the existing call, time and spending limits, without applying partial output.
+
 - Include declared product summaries in provider package indexes, sharing metadata types with the plugin contract while keeping execution and auth configuration private.
 
 - Declare separate Anthropic API and existing Claude subscription catalog products, preserving Messages and token-counting transport boundaries.
