@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Retain bounded, content-free failed-test fingerprints in Fusion benchmark receipts to compare regressions with qualified baselines.
+
 - Validate repeated Fusion benchmark blocks against one protocol and a consecutive spend ledger, with joint quality, cost and latency reporting.
 
 - Recover once from a truncated Fusion benchmark action within the existing call, time and spending limits, without applying partial output.
