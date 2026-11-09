@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Validate repeated Fusion benchmark blocks against one protocol and a consecutive spend ledger, with joint quality, cost and latency reporting.
+
 - Recover once from a truncated Fusion benchmark action within the existing call, time and spending limits, without applying partial output.
 
 - Include declared product summaries in provider package indexes, sharing metadata types with the plugin contract while keeping execution and auth configuration private.
